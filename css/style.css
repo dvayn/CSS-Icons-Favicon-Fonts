@@ -1,0 +1,81 @@
+body {
+  background-color: blanchedalmond;
+}
+.ddmenu {
+  display: none;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rebeccapurple;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  float: right;
+  width: 100%;
+}
+nav li {
+  float: right;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover:not(.active) {
+  background-color: #a94aa6;
+}
+.main {
+  width: 100%;
+  height: 630px;
+  background-color: rgba(148, 75, 223, 0.33);
+}
+.main h1 {
+  text-align: center;
+}
+#home {
+  font-family: Chalkboard, sans-serif;
+}
+#contact {
+  font-family: "American Typewriter", sans-serif;
+}
+#about {
+  font-family: AppleMyungjo, sans-serif;
+}
+.active {
+  background-color: #afac2a;
+}
+.footer {
+  position: fixed;
+  bottom: 20px;
+  width: 98.5%;
+  background-color: rebeccapurple;
+  color: white;
+  text-align: center;
+}
+.footer a:link {
+  text-decoration: inherit;
+  color: unset;
+}
+.footer a:visited {
+  text-decoration: none;
+  color: unset;
+}
+.footer a:hover {
+  text-decoration: none;
+}
+.footer a:active {
+  text-decoration: none;
+}
+i {
+  font-size: 40px;
+  padding: 2px;
+  background-color: rebeccapurple;
+  margin: 0;
+  border: 0;
+}
+/*# sourceMappingURL=style.css.map */
